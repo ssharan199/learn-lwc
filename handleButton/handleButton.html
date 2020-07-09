@@ -1,0 +1,16 @@
+<template>
+    <div class="slds-box">
+
+    <p class="slds-m-vertical_medium">
+        Hi Smriti, {clickedButtonLabel}
+    </p> 
+        <lightning-button name= "Good Morning !" variant="brand" label="Good Morning" 
+        title="Primary action" onclick={handleClickMorning} class="slds-m-left_x-small"></lightning-button>
+    
+        <lightning-button name= "Good Afternoon !" variant="destructive" label="Good Afternoon" 
+        title="Destructive action" onclick={handleClickAfternoon} class="slds-m-left_x-small"></lightning-button>
+
+        <lightning-button name= "Good Evening !" variant="success" label="Good Evening" title="Successful action"
+         onclick={handleClickEvening} class="slds-m-left_x-small"></lightning-button>   
+    </div>
+</template>
